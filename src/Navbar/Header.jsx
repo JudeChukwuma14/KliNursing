@@ -93,7 +93,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/contact"
+                to="/contact-us"
                 className="hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
