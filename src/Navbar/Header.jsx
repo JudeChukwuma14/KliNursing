@@ -66,7 +66,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/standards"
+                to="/careers"
                 className="hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
@@ -137,11 +137,11 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/standards"
+                to="/careers"
                 className="block w-full hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
-                Standards
+                Careers
               </NavLink>
             </li>
             <li>
@@ -164,7 +164,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/contact"
+                to="/contact-us"
                 className="block w-full hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
