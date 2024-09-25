@@ -3,7 +3,6 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 import Navbar from './Navbar/Navbar'
 // import Contact from './pages/Contact'
 import Header from './Navbar/Header'
-import ContactUs from './pages/ContactUs'
 export default function App() {
   return (
     <BrowserRouter>
@@ -11,7 +10,7 @@ export default function App() {
     <Header/>
     <Routes>
 
-      <Route path='/contact-us' element={<ContactUs/>}/>
+      <Route path='/contact-us' element={<Contact/>}/>
     </Routes>
     </BrowserRouter>
   )
