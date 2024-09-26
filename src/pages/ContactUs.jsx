@@ -12,17 +12,20 @@ const ContactUs = () => {
       {/* Background Section */}
       <div
         style={img}
-        className="bg-cover bg-no-repeat w-full h-[30vh] lg:h-[40vh] bg-center"
+        className="bg-cover relative bg-no-repeat w-full h-[30vh] lg:h-[40vh] bg-center"
       >
-        <div className="flex flex-col justify-center items-center h-full">
-          <h1 className="text-center lg:pt-16 md:text-4xl font-bold md:pt-16 lg:text-[60px] pt-8 text-[#15803D]">
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      {/*  */}
+        <div className="flex relative flex-col justify-center items-center h-full">
+          <h1 className="text-center lg:pt-16 md:text-4xl font-bold md:pt-16 lg:text-[60px] pt-8 text-white">
             Contact Us
           </h1>
-          <span className="flex justify-start items-center pl-3 md:pl-6 lg:pl-8 pt-2 md:pt-10 lg:pt-18 text-[10px] md:text-[18px] text-[#72D85A]">
+          <span className="flex justify-start items-center pl-3 md:pl-6 lg:pl-8 pt-2 md:pt-10 lg:pt-18 text-[10px] md:text-[18px] text-white">
             <a href="/" className="font-bold">Home</a> / <a href="/contact">Contact</a>
           </span>
         </div>
       </div>
+
 
       {/* Contact Information Cards */}
       <div className="flex flex-col lg:flex-row justify-center items-center gap-3 lg:gap-8 px-6 pt-8 md:pt-14">
