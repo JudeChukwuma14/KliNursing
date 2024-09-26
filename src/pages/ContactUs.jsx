@@ -68,29 +68,29 @@ const ContactUs = () => {
             <input
               type="text"
               placeholder="Your Name"
-              className="border pl-3 h-10 w-[300px] lg:h-14 lg:w-[400px] mx-8 my-2 md:my-3 md:mx-4 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
+              className="border outline-none pl-3 h-10 w-[300px] lg:h-14 lg:w-[400px] mx-8 my-2 md:my-3 md:mx-4 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="border pl-3 h-10 w-[300px] lg:h-14 lg:w-[400px] mx-8 my-2 md:my-3 md:mx-4 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
+              className="border outline-none pl-3 h-10 w-[300px] lg:h-14 lg:w-[400px] mx-8 my-2 md:my-3 md:mx-4 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
             />
           </div>
           <div className="flex flex-col md:flex-row">
             <input
               type="text"
               placeholder="Address"
-              className="border pl-3 h-10 w-[300px] lg:h-14 lg:w-[400px] mx-8 my-2 md:my-3 md:mx-4 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
+              className="border outline-none pl-3 h-10 w-[300px] lg:h-14 lg:w-[400px] mx-8 my-2 md:my-3 md:mx-4 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
             />
             <input
               type="text"
               placeholder="Subject"
-              className="border pl-3 h-10 w-[300px] lg:h-14 lg:w-[400px] mx-8 my-2 md:my-3 md:mx-4 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
+              className="border outline-none pl-3 h-10 w-[300px] lg:h-14 lg:w-[400px] mx-8 my-2 md:my-3 md:mx-4 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
             />
           </div>
           <textarea
             placeholder="Message"
-            className="resize-none h-[180px] w-[300px] md:w-[630px] lg:w-[830px] border pl-3 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
+            className="resize-none outline-none pt-2 h-[180px] w-[300px] md:w-[630px] lg:w-[830px] border pl-3 border-[#15803D] focus:ring-2 focus:ring-[#72D85A]"
           ></textarea>
           <button
             type="submit"
