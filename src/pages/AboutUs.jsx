@@ -30,6 +30,11 @@ export default function AboutUs() {
         </div>
       </div>
       <div className=" text-center">
+        <p className="text-sm md:text-[18px] md:leading-9 font-light w-[100%] px-9 mt-9 text-justify">
+        Our Mission is to provide safe and Quality care to our Clients. Residential Service Agency: Our Services Include skilled and non-skilled services. Skilled services include Medication Administration, Wellness Visit, Comprehensive Physical Assessment, Diabetes, hypertension Management, Enteral Feeding, Wound care, Infusion therapy, infusion management, Blood Draws/ Phlebotomy services, patient teaching. Respiratory services such as Tracheostomy care, Vent care, Oxygen Monitoring. Unskilled Services (Personal Care Services/ Companion care) include Bathing, grooming and assistance with dressing, Vital signs, Meal preparation and feeding, Range of motion Exercise, personal laundry, and linen change running errands, grocery shopping and light housekeeping. Medical Staffing Agency: We are a staffing agency that staff Registered Nurses (RN's), Certified Nurse Assistant (CNA's) Geriatric Nursing Assistant (GNA's), Licensed Practical Nurse (LPN's) Social Workers, Respiratory Therapist, Case Manager, companion, Sitter, to different facilities. Our staff and staffing schedules are flexible to meet your needs. We staff Acute care and rehab Facilities, Nursing homes, pharmacies 24/7 to provide excellent continuous care. Our staffs are licensed, registered and our company is fully insured and bonded.
+        </p>
+      </div>
+      <div className=" text-center">
         <h1 className=" pt-7 pb-4 font-bold text-2xl lg:text-4xl md:text-3xl lg:pb-7">
           WHY CHOSE KLI NUSRING
         </h1>
@@ -41,7 +46,7 @@ export default function AboutUs() {
               WHY CHOSE KLI NUSRING
             </h1> */}
 
-            <p className="text-sm md:text-[18px] md:leading-9 lg:w-[700px] text-justify">
+            <p className="text-sm md:text-[18px] md:leading-9 font-light  lg:w-[700px] text-justify">
               KLI Nursing Services INC, strives to lead the industry in our
               region with our innovative Residential Service Agency and staffing
               Agency programs. Our team of Health care professionals continue to
@@ -70,7 +75,7 @@ export default function AboutUs() {
           <div>
             <h1 className=" py-2 font-bold text-lg md:text-2xl">What We Do</h1>
 
-            <li className=" text-sm md:text-[18px] md:leading-9 lg:w-[700px] text-justify">
+            <li className=" text-sm md:text-[18px] md:leading-9 font-light lg:w-[700px] text-justify">
               Residential Service Agency: Skilled services include Medication
               Administration, Wellness Visit, Comprehensive Physical Assessment,
               Diabetes, hypertension Management, Enteral Feeding, Wound care,
@@ -82,12 +87,12 @@ export default function AboutUs() {
               laundry, and linen change running errands, grocery shopping and
               light housekeeping
             </li>
-            <li className=" text-sm md:text-[18px] md:leading-9 lg:w-[700px] text-justify">
+            <li className=" text-sm md:text-[18px] md:leading-9 font-light lg:w-[700px] text-justify">
               Medical Staffing: We staff Acute care and rehab, Facilities,
               Nursing homes, pharmacies 24/7 to provide excellent continuous
               care.
             </li>
-            <li className=" text-sm md:text-[18px] md:leading-9 lg:w-[700px] text-justify">
+            <li className=" text-sm md:text-[18px] md:leading-9 font-light lg:w-[700px] text-justify">
               Call us any time, our staffing coordinator will assist you with
               your staffing needs.
             </li>
@@ -106,7 +111,7 @@ export default function AboutUs() {
               Health Care Climate
             </h1>
 
-            <p className=" text-sm md:text-[18px] md:leading-9 lg:w-[700px] w- text-justify">
+            <p className=" text-sm md:text-[18px] md:leading-9 font-light lg:w-[700px] w- text-justify">
               KLI Nursing Services, INC. was founded with the objective of
               helping families and their loved ones get the quality care they
               need, in the comfort of their home or place of choice, we also

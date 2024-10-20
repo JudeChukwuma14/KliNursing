@@ -49,7 +49,7 @@ const Header = () => {
               <NavLink
                 to="/"
                 exact
-                className="hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Home
@@ -58,7 +58,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/about-us"
-                className="hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 About Us
@@ -67,7 +67,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/careers"
-                className="hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Careers
@@ -76,7 +76,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/services"
-                className="hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Services
@@ -85,7 +85,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/media"
-                className="hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Media
@@ -94,7 +94,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/contact-us"
-                className="hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Contact Us
@@ -120,7 +120,7 @@ const Header = () => {
               <NavLink
                 to="/"
                 exact
-                className="block w-full hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="block w-full hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Home
@@ -129,7 +129,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/about-us"
-                className="block w-full hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="block w-full hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 About Us
@@ -138,7 +138,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/careers"
-                className="block w-full hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="block w-full hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Careers
@@ -147,7 +147,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/services"
-                className="block w-full hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="block w-full hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Services
@@ -156,7 +156,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/media"
-                className="block w-full hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="block w-full hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Media
@@ -165,7 +165,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/contact-us"
-                className="block w-full hover:text-green-600 border-b-2 border-transparent hover:border-green-600 transition-all duration-300"
+                className="block w-full hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
               >
                 Contact Us
