@@ -1,6 +1,7 @@
 import { IoLocation, IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import backgroundImage from "../assets/image/ContactImage.jpg";
+import { FaBusinessTime } from "react-icons/fa";
 
 const ContactUs = () => {
   const img = {
@@ -45,6 +46,15 @@ const ContactUs = () => {
             <MdEmail />
           </div>
           <h1 className="lg:text-4xl md:text-2xl font-bold">Email Us</h1>
+          <p className="md:text-[18px] text-[12px]">klinusring@gmail.com</p>
+        </div>
+
+         {/* Email Card */}
+         <div className="flex flex-col justify-center items-center h-32 w-40 md:h-[200px] md:w-[250px] lg:h-[250px] lg:w-[300px] bg-gradient-to-r from-[#15803D] to-[#72D85A] text-white rounded-lg shadow-lg">
+          <div className="lg:h-[60px] lg:w-[60px] md:h-[55px] md:w-[55px] h-[40px] w-[40px] flex justify-center items-center rounded-full border text-4xl mb-2 border-white">
+          <FaBusinessTime />
+          </div>
+          <h1 className="lg:text-4xl md:text-2xl font-bold">Business Hours</h1>
           <p className="md:text-[18px] text-[12px]">klinusring@gmail.com</p>
         </div>
 

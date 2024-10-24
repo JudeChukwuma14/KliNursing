@@ -6,6 +6,11 @@ import logo from '../assets/image/KliLogo.jpg';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const [isServiceDropdownOpen, setIsServiceDropdownOpen] = React.useState(false);
+
+  const toggleServiceDropdown = () => {
+    setIsServiceDropdownOpen(!isServiceDropdownOpen);
+  };
 
   return (
     <header>
@@ -73,14 +78,46 @@ const Header = () => {
                 Careers
               </NavLink>
             </li>
-            <li>
+            <li className="relative">
               <NavLink
                 to="/services"
                 className="hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
+                onMouseEnter={toggleServiceDropdown}
+                onMouseLeave={toggleServiceDropdown}
               >
                 Services
               </NavLink>
+              {/* Dropdown for Services */}
+              {isServiceDropdownOpen && (
+                <ul className="absolute left-0 mt-2 bg-white shadow-lg rounded-md p-4 space-y-2 w-[200px]">
+                  <li>
+                    <NavLink to="/services/need-assessment" className="block text-gray-800 hover:text-green-600">
+                      Need Assessment
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/skilled-nursing" className="block text-gray-800 hover:text-green-600">
+                      Skilled Nursing
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/private-duty" className="block text-gray-800 hover:text-green-600">
+                      Private Duty
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/personal-care" className="block text-gray-800 hover:text-green-600">
+                      Personal Care
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/couples-care" className="block text-gray-800 hover:text-green-600">
+                      Couples Care
+                    </NavLink>
+                  </li>
+                </ul>
+              )}
             </li>
             <li>
               <NavLink
@@ -101,14 +138,6 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
-
-          {/* Workshop Button */}
-          {/* <NavLink
-            to="/workshop"
-            className="bg-green-600 text-white px-4 py-2 rounded-md font-bold hover:bg-green-700 transition-colors"
-          >
-            Workshop Portal
-          </NavLink> */}
         </nav>
       </div>
 
@@ -149,9 +178,40 @@ const Header = () => {
                 to="/services"
                 className="block w-full hover:text-green-600 border-b-2 text-xl border-transparent hover:border-green-600 transition-all duration-300"
                 activeClassName="text-green-600 border-green-600"
+                onClick={toggleServiceDropdown}
               >
                 Services
               </NavLink>
+              {/* Dropdown for Services (Mobile) */}
+              {isServiceDropdownOpen && (
+                <ul className="pl-4 mt-2 space-y-2">
+                  <li>
+                    <NavLink to="/services/need-assessment" className="block text-gray-800 hover:text-green-600">
+                      Need Assessment
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/skilled-nursing" className="block text-gray-800 hover:text-green-600">
+                      Skilled Nursing
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/private-duty" className="block text-gray-800 hover:text-green-600">
+                      Private Duty
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/personal-care" className="block text-gray-800 hover:text-green-600">
+                      Personal Care
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/couples-care" className="block text-gray-800 hover:text-green-600">
+                      Couples Care
+                    </NavLink>
+                  </li>
+                </ul>
+              )}
             </li>
             <li>
               <NavLink
@@ -171,12 +231,6 @@ const Header = () => {
                 Contact Us
               </NavLink>
             </li>
-            {/* <NavLink
-              to="/workshop"
-              className="bg-green-600 text-white px-4 py-2 rounded-md font-bold hover:bg-green-700 transition-colors w-full text-center"
-            >
-              Workshop Portal
-            </NavLink> */}
           </ul>
         </nav>
       )}
